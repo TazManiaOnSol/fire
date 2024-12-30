@@ -184,7 +184,7 @@
         column.classList.add('matrix-column');
         column.style.left = i * 20 + 'px';
         column.style.animationDelay = Math.random() * 20 + 's';
-        column.innerHTML = Array.from({ length: 50 }, () => Math.random() > 0.95 ? 'Locked in Guy' : Math.random() > 0.5 ? '1' : '0').join('<br>');
+        column.innerHTML = Array.from({ length: 50 }, () => Math.random() > 0.95 ? 'Fire' : Math.random() > 0.5 ? '1' : '0').join('<br>');
         container.appendChild(column);
       }
     });
